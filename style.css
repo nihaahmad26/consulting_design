@@ -1,0 +1,165 @@
+/* CSS Reset */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#wrapper{
+    width:970px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 0px 10px 5px 15px;
+}
+
+#wrapper li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.blue{
+    color: #188bd4;
+}
+.white{
+    color: white;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    width: 500px;
+    font-size: 15px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+#main-body {
+    background-color: white;
+    padding: 15px 0px 15px 0px;
+
+}
+
+#main_img {
+    width: 930px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#menu-options{
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+}
+
+.about{
+    width:300px;
+    background-color: #1468a8;
+    margin: 15px -20px 15px 20px;
+}
+
+.about p{
+    font-size: small;
+    width: 250px;
+    margin-left: 15px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.subhead{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.subhead h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+#menu-options button{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    color: white;
+    background:linear-gradient(#48adec,#1990da);
+}
+
+#testimonial-header{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 195px;
+    padding: 10px 0px 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#goal-text{
+    padding: 0px 30px 0px 30px;
+    font-size: small;
+    width: 300px;
+    height: 150px;
+    color: black;
+}
+
+#goal-text p{
+    padding: 3px;
+}
+
+#goal-text div{
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+#testimonial-info{
+    padding-top: 5px;
+    display: flex;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+#testimonial-info img{
+    margin-left: 15px;
+}
+#testimonial-quote p{
+    text-align: center;
+    padding: 20px 35px 40px 20px;
+    background-color: #daedff;
+    font-style: italic;
+    color: #435b6e;
+    width: 250px;
+}
+
+#testimonial-quote h6 {
+    padding-top: 27px;
+    color:black;
+}
+
+#footer{
+    background-color: #daedff;
+    color:#435b6e;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+#footer ul{
+    width: 350px;
+    padding-right: 60px;
+}
+
